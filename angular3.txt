@@ -1,0 +1,6 @@
+menu : angular :
+create class 
+get user : json server recuperer tout les utilsateur
+jwt: 
+
+when we submit we get the data

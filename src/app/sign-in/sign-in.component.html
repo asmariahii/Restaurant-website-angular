@@ -1,0 +1,19 @@
+<form [formGroup]="formInput">
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="id_email" formControlName="email" placeholder="aa@mail.com">
+      <div class="alert alert-danger" role="alert" *ngIf="!formInput.pristine && this.formInput.controls['email'].errors?.['required'] " >
+        Email is required !
+      </div>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="id_password" formControlName="password" placeholder="password">
+      <div class="alert alert-danger" role="alert">
+        Password is required !
+      </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit </button>
+  </form>

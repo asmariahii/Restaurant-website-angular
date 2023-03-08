@@ -1,0 +1,5 @@
+API : liaison entre la partie front end et back end : http client 
+architecture: Repository -- service-- rest controller
+download : java 11, postman, springboot: project:spring tools : 
+spring intializr : création 
+	

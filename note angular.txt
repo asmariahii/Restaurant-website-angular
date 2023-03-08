@@ -1,0 +1,62 @@
+permet de creer spa single page app
+lts node js 
+cd 
+cd projet angular
+npm install-g @angular/cli
+ng new projetangular
+ model
+view : partie visuel de html
+nvvm : model view view model -- architecture d'angular
+providers: un service (ensemble de fonctions)
+asset : ressources (  exp: des images )
+app component : composent principale 
+export class : sera visible cet classe
+npm start 
+ng serve 
+ng generate 
+app module composent principale
+
+install bootstrap : npm install-g bootstrap 
+ctr c : pour sortir .
+ng serve 
+pour le formulaire:
+reactiveformsmodule 
+liaison : {{}} :ngModel 
+property biding :liaison de propriete
+ champ obligatoire : Validators, required
+
+
+enregistrement:
+
+app modules.ts : declaration : ensemble des composants
+cd nom de fichier
+npm start 
+création d'un nouveau composant : ng g c le nom de composant
+pour accéder au composant : app rounting module : const routes =[{path: "navbar", Component: NavbarComponent}];
+ 
+pour afficher deux composants
+app component .html 
+<selectorid></SELECTOR ID>
+ 
+formulaire: 
+validators: required"champ obligatoire"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
